@@ -1,5 +1,15 @@
 {
   "name": "@repo/shared",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "react": "19.3.0"
+  }
 }
